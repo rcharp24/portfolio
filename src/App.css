@@ -10,7 +10,7 @@
 }
 
 .nav-menu li {
-  margin: 0;
+  margin: 0 15px;
 }
 
 .nav-menu li a {
@@ -28,6 +28,7 @@
   background-color: #1abc9c;
   color: white;
 }
+
 
 
 .App-header {
@@ -144,8 +145,8 @@ ul li {
 
 @media (max-width: 768px) {
   .headshot {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
   }
 
   .App-header h1 {

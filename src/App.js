@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -10,7 +11,7 @@ function App() {
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://github.com/rcharp24/portfolio/blob/main/Resume%202025.pdf">Resume</a></li>
+            <li><a href="https://github.com/rcharp24/portfolio/blob/main/Resume.pdf">Resume</a></li>
           </ul>
         </nav>
         <img 
