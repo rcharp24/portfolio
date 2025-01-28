@@ -19,7 +19,7 @@ function App() {
           className="headshot"
         />
         <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Rob Charpentier, a recent graduate and a passionate developer! I currently work in IT but I am looking to expand my coding knowledge and become a developer.</p>
+        
         <a
           className="App-link"
           href="https://github.com/rcharp24"
