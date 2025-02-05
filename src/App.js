@@ -41,8 +41,7 @@ function App() {
         <p>Here are some of the projects I've worked on recently:</p>
         <ul>
           <li><strong>Portfolio Website:</strong> This React project showcasing my development skills and interests.</li>
-          <li><strong>SCADA System Integration:</strong> Developed a SCADA interface as part of my SCADA project to automate processes in energy systems.</li>
-          <li><strong>Python Automation Scripts:</strong> Built scripts to automate repetitive tasks in IT environments.</li>
+          <li><strong>Fit Check Mate:</strong> Currently in the works, I am building a website that will allow users to upload pictures of tops, bottoms and shoes, it will analyze the color and patterns and let them know if it matches or not. If it doesnt match, it will give them recommendations to help improve their style. I currently have the front end set up and working on the backend</li>
         </ul>
       </section>
 
