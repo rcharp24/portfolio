@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 
 function App() {
-  
   return (
     <div className="App">
       <header className="App-header">
@@ -11,7 +10,7 @@ function App() {
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://github.com/rcharp24/portfolio/blob/main/Resume.pdf">Resume</a></li>
+            <li><a href="https://github.com/rcharp24/portfolio/blob/main/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
           </ul>
         </nav>
         <img 
@@ -19,12 +18,11 @@ function App() {
           alt="Rob Charpentier Headshot" 
           className="headshot"
         />
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Rob Charpentier, a recent graduate and a passionate developer! I currently work in IT but I am looking to expand my coding knowledge and become a developer.</p>
+        <h1>Rob Charpentier</h1>
         <a
           className="App-link"
           href="https://github.com/rcharp24"
-          target="scholarsphere"
+          target="_blank"
           rel="noopener noreferrer"
         >
           Visit my GitHub
@@ -40,9 +38,18 @@ function App() {
         <h2>Projects</h2>
         <p>Here are some of the projects I've worked on recently:</p>
         <ul>
-          <li><strong>Portfolio Website:</strong> This React project showcasing my development skills and interests.</li>
-          <li><strong>SCADA System Integration:</strong> Developed a SCADA interface as part of my SCADA project to automate processes in energy systems.</li>
-          <li><strong>Python Automation Scripts:</strong> Built scripts to automate repetitive tasks in IT environments.</li>
+          <li><strong>Portfolio Website:</strong> This React project showcases my development skills and interests.</li>
+          <li><strong>Fit Check Mate Website:</strong> A React project where users upload pictures of clothes. It extracts colors, tells the user if the clothes match, identifies any outliers, and provides better matching color suggestions.</li>
+          
+          {/* 🔽 Embed video if it's hosted (update src with actual link if available) */}
+          <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+            <video width="50%" height="auto" controls>
+              <source src="https://www.example.com/fit-check-mate-demo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <li><strong>LifeQuest Application:</strong> A Java app gamifying productivity. Users complete tasks for XP. Stats increase as users complete more, encouraging healthy habits with a fun system.</li>
         </ul>
       </section>
 
