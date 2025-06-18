@@ -38,6 +38,7 @@ function App() {
         <h2>Projects</h2>
         <p>Here are some of the projects I've worked on recently:</p>
         <ul>
+<<<<<<< HEAD
           <li><strong>Portfolio Website:</strong> This React project showcases my development skills and interests.</li>
           <li><strong>Fit Check Mate Website:</strong> A React project where users upload pictures of clothes. It extracts colors, tells the user if the clothes match, identifies any outliers, and provides better matching color suggestions.</li>
           
@@ -50,6 +51,10 @@ function App() {
           </div>
 
           <li><strong>LifeQuest Application:</strong> A Java app gamifying productivity. Users complete tasks for XP. Stats increase as users complete more, encouraging healthy habits with a fun system.</li>
+=======
+          <li><strong>Portfolio Website:</strong> This React project showcasing my development skills and interests.</li>
+          <li><strong>Fit Check Mate:</strong> Currently in the works, I am building a website that will allow users to upload pictures of tops, bottoms and shoes, it will analyze the color and patterns and let them know if it matches or not. If it doesnt match, it will give them recommendations to help improve their style. I currently have the front end set up and working on the backend</li>
+>>>>>>> bc313d1d9d2f1ffdcce66b6cee9584eb5bfe4b41
         </ul>
       </section>
 
