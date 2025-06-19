@@ -38,23 +38,32 @@ function App() {
         <h2>Projects</h2>
         <p>Here are some of the projects I've worked on recently:</p>
         <ul>
-<<<<<<< HEAD
           <li><strong>Portfolio Website:</strong> This React project showcases my development skills and interests.</li>
           <li><strong>Fit Check Mate Website:</strong> A React project where users upload pictures of clothes. It extracts colors, tells the user if the clothes match, identifies any outliers, and provides better matching color suggestions.</li>
           
           {/* 🔽 Embed video if it's hosted (update src with actual link if available) */}
           <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
-            <video width="50%" height="auto" controls>
-              <source src="https://www.example.com/fit-check-mate-demo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <iframe
+              src="https://drive.google.com/file/d/1KZXfqHsAJoS3H46so5nA9z1rJnvo0GrI/preview"
+              width="640"
+              height="480"
+              title="Fit Check Mate Demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
 
           <li><strong>LifeQuest Application:</strong> A Java app gamifying productivity. Users complete tasks for XP. Stats increase as users complete more, encouraging healthy habits with a fun system.</li>
-=======
-          <li><strong>Portfolio Website:</strong> This React project showcasing my development skills and interests.</li>
-          <li><strong>Fit Check Mate:</strong> Currently in the works, I am building a website that will allow users to upload pictures of tops, bottoms and shoes, it will analyze the color and patterns and let them know if it matches or not. If it doesnt match, it will give them recommendations to help improve their style. I currently have the front end set up and working on the backend</li>
->>>>>>> bc313d1d9d2f1ffdcce66b6cee9584eb5bfe4b41
+          <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+            <iframe
+              src="https://drive.google.com/file/d/15Mg5Y1ESXgFzMQZn3pOJMI2HCt5TIuYP/preview"
+              width="600"
+              height="580"
+              title="LifeQuest Demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </ul>
       </section>
 
@@ -63,7 +72,7 @@ function App() {
         <p>Feel free to reach out to me via:</p>
         <ul>
           <li>Email: <a href="mailto:robj.charpentier@gmail.com">robj.charpentier@gmail.com</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/robert-charpentier-765369197" target="_blank" rel="noopener noreferrer">linkedin.com/in/robert-charpentier-765369197</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/robert-charpentier" target="_blank" rel="noopener noreferrer">linkedin.com/in/robert-charpentier</a></li>
           <li>GitHub: <a href="https://github.com/rcharp24" target="_blank" rel="noopener noreferrer">github.com/rcharp24</a></li>
         </ul>
       </section>
