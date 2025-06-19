@@ -10,9 +10,9 @@ function App() {
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://github.com/rcharp24/portfolio/blob/main/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/114GPDKUY51qzcjodqRGmgZmcQ5Lv8Emz/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
           </ul>
-        </nav>
+        </nav> 
         <img 
           src="https://avatars.githubusercontent.com/u/160549758?s=400&u=d3985d786bd38adcca510b27a966f2377cfe980e&v=4" 
           alt="Rob Charpentier Headshot" 
@@ -42,7 +42,7 @@ function App() {
             <strong>Portfolio Website:</strong> This project showcases my development skills and interests.
           </li>
           <li>
-            <strong>Fit Check Mate Website:</strong> A React project where users upload pictures of clothes...
+            <strong>Fit Check Mate Website:</strong> A React website that helps users put together outfits...
             <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
               <iframe
                 src="https://drive.google.com/file/d/1KZXfqHsAJoS3H46so5nA9z1rJnvo0GrI/preview"
@@ -55,7 +55,7 @@ function App() {
             </div>
           </li>
           <li>
-            <strong>LifeQuest Application:</strong> A Java app gamifying productivity...
+            <strong>LifeQuest Application:</strong> A Java app gamifying productivity with real life task...
             <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
               <iframe
                 src="https://drive.google.com/file/d/15Mg5Y1ESXgFzMQZn3pOJMI2HCt5TIuYP/preview"
