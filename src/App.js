@@ -38,33 +38,37 @@ function App() {
         <h2>Projects</h2>
         <p>Here are some of the projects I've worked on recently:</p>
         <ul>
-          <li><strong>Portfolio Website:</strong> This React project showcases my development skills and interests.</li>
-          <li><strong>Fit Check Mate Website:</strong> A React project where users upload pictures of clothes. It extracts colors, tells the user if the clothes match, identifies any outliers, and provides better matching color suggestions.</li>
-          
-          {/* 🔽 Embed video if it's hosted (update src with actual link if available) */}
-          <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
-            <iframe
-              src="https://drive.google.com/file/d/1KZXfqHsAJoS3H46so5nA9z1rJnvo0GrI/preview"
-              width="640"
-              height="480"
-              title="Fit Check Mate Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-
-          <li><strong>LifeQuest Application:</strong> A Java app gamifying productivity. Users complete tasks for XP. Stats increase as users complete more, encouraging healthy habits with a fun system.</li>
-          <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
-            <iframe
-              src="https://drive.google.com/file/d/15Mg5Y1ESXgFzMQZn3pOJMI2HCt5TIuYP/preview"
-              width="600"
-              height="580"
-              title="LifeQuest Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
+          <li>
+            <strong>Portfolio Website:</strong> This project showcases my development skills and interests.
+          </li>
+          <li>
+            <strong>Fit Check Mate Website:</strong> A React project where users upload pictures of clothes...
+            <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+              <iframe
+                src="https://drive.google.com/file/d/1KZXfqHsAJoS3H46so5nA9z1rJnvo0GrI/preview"
+                width="640"
+                height="480"
+                title="Fit Check Mate Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </li>
+          <li>
+            <strong>LifeQuest Application:</strong> A Java app gamifying productivity...
+            <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+              <iframe
+                src="https://drive.google.com/file/d/15Mg5Y1ESXgFzMQZn3pOJMI2HCt5TIuYP/preview"
+                width="600"
+                height="580"
+                title="LifeQuest Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </li>
         </ul>
+
       </section>
 
       <section id="contact">
