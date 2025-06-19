@@ -1,4 +1,5 @@
 import React from 'react';
+import ScholarSpherepic from './ScholarSpherepic.png';
 import './App.css';
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
 
       <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm Rob Charpentier, a recent graduate with a passion for web development. Currently working in IT, I’m eager to expand my coding knowledge and transition into full-time development. I specialize in working with Python, Java, React, SQL, HTML, CSS, PHP, and JavaScript. I am also enthusiastic about contributing to open-source projects and building scalable web applications.</p>
+        <p>Hello! I'm Rob Charpentier, a recent graduate with a passion for web development. Currently working in IT, I’m eager to expand my coding knowledge and transition into full-time development. I have educational with Python, Java, React, SQL, HTML, CSS, PHP, and JavaScript. I am also enthusiastic about contributing to open-source projects and building scalable web applications.</p>
       </section>
 
       <section id="projects">
@@ -39,8 +40,18 @@ function App() {
         <p>Here are some of the projects I've worked on recently:</p>
         <ul>
           <li>
-            <strong>Portfolio Website:</strong> This project showcases my development skills and interests.
+            <strong>Portfolio Website:</strong> This project showcases my development skills and interests...
           </li>
+          <li>
+            <strong>ScholarSphere Website:</strong> A senior project that I helped develope which assist users in become better writers...
+            <img
+            src={ScholarSpherepic}
+            alt='Scholar Sphere picture'
+            aria-hidden="true"
+            className="demoPic" 
+            />
+          </li> 
+          
           <li>
             <strong>Fit Check Mate Website:</strong> A React website that helps users put together outfits...
             <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
