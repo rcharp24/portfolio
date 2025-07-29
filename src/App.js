@@ -44,7 +44,7 @@ function App() {
           </li>
           <li>
             <strong>ScholarSphere Website:</strong> A senior project that I helped develope which assist users in become better writers...
-              <div className="video-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+              <div className="image-container" style={{ marginTop: '1rem', marginBottom: '1rem' }}>
                 <img
                 src={ScholarSpherepic}
                 alt='Scholar Sphere picture'

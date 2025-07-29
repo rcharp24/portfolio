@@ -244,6 +244,12 @@ video {
   section {
     padding: 50px 15px;
   }
+
+  .demoPic {
+    width: 90%;       /* Make image 90% of container width on smaller screens */
+    max-width: 400px; /* Optional max width to keep it from getting too large */
+    height: auto;     /* Maintain aspect ratio */
+  }
 }
 
 html, body {
