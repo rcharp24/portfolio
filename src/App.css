@@ -111,14 +111,27 @@
   justify-content: center;
   margin: 1rem 0;
   width: 100%;
+  max-width: 100%; /* Ensure it never exceeds the screen */
+  padding: 0 15px; /* Small horizontal padding so image can’t touch edges */
+  box-sizing: border-box; /* So padding doesn't add to width */
 }
+
 
 .demoPic {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: block; /* Better control and removes inline img spacing */
 }
+
+@media (max-width: 768px) {
+  .demoPic {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+
 
 
 /* --- SECTIONS --- */
@@ -246,9 +259,8 @@ video {
   }
 
   .demoPic {
-    width: 90%;       /* Make image 90% of container width on smaller screens */
-    max-width: 400px; /* Optional max width to keep it from getting too large */
-    height: auto;     /* Maintain aspect ratio */
+    width: 90%;
+    max-width: 400px;
   }
 }
 
