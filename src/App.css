@@ -109,6 +109,8 @@
 .demoPic {
   height: 350px;
   width: 725px;
+  display: flex;
+  justify-content: center;
 }
 
 /* --- SECTIONS --- */
