@@ -107,10 +107,13 @@
 }
 
 .demoPic {
-  height: 350px;
-  width: 725px;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* --- SECTIONS --- */
