@@ -125,14 +125,6 @@
   display: block; /* Better control and removes inline img spacing */
 }
 
-@media (max-width: 768px) {
-  .demoPic {
-    width: 90%;
-    max-width: 400px;
-  }
-}
-
-
 
 /* --- SECTIONS --- */
 section {
